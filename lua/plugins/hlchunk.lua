@@ -15,7 +15,10 @@ return {
         },
       },
       blank = {
-        enable = false,
+        enable = true,
+      },
+      indent = {
+        enable = true,
       },
       line_num = {
         enable = true,
