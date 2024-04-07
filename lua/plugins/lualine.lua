@@ -26,9 +26,10 @@ return {
         lualine_b = {'branch', 'diff', 'diagnostics'},
         lualine_c = {'filename'},
         -- lualine_d = {{'datetime', style={'default'}}},
+        -- lualine_v = {'selectioncount'},
         lualine_w = {'encoding', 'fileformat', 'filetype'},
-        lualine_y = {'progress'},
-        lualine_x = {'location'},
+        lualine_x = {'progress'},
+        lualine_y = {'location'},
         lualine_z = { {'datetime', style="%H:%M:%S" } }
       },
       inactive_sections = {
