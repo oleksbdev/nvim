@@ -30,7 +30,7 @@ return {
         lualine_w = {'encoding', 'fileformat', 'filetype'},
         lualine_x = {'progress'},
         lualine_y = {'location'},
-        lualine_z = { {'datetime', style="%H:%M:%S" } }
+        lualine_z = { {'datetime', style=" %H:%M:%S" } }
       },
       inactive_sections = {
         lualine_a = {},
